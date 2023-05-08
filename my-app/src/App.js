@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App(props) {
   return (
@@ -35,6 +37,8 @@ function App(props) {
       </header>
       <main>
         <About />
+        <Projects />
+        <Footer />
       </main>
     </div>
   );
